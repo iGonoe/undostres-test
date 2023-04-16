@@ -129,3 +129,119 @@ CREATE TABLE `movies` (
   `Release_date` date NOT NULL,
   `Date_added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `movies`
+--
+
+INSERT INTO `movies` (`movie_ID`, `movie_name`, `url`, `thumbnail`, `genre`, `actors`, `Release_date`, `Date_added`) VALUES
+(19, 'Chris Brown - Gliding ft. Wiz Khalifa.mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/Chris Brown - Gliding ft. Wiz Khalifa.mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/cbrownglinding.PNG', 'fdf', 'xddf', '0000-00-00', '2019-05-30 23:52:42'),
+(21, 'KYLE - Moment feat. Wiz Khalifa [Official Music Video].mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/KYLE - Moment feat. Wiz Khalifa [Official Music Video].mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/kyle.PNG', 'song', 'kyle,wiz kalifa', '0000-00-00', '2019-05-30 19:36:19'),
+(22, 'Jaden Smith - GHOST ft. Christian Rich (Official V.mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/Jaden Smith - GHOST ft. Christian Rich (Official V.mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/ghost.PNG', 'song', 'jaden smith', '0000-00-00', '2019-05-30 23:52:49'),
+(26, 'Jaden Smith - GOKU.mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/Jaden Smith - GOKU.mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/goku.PNG', 'animation', 'Jaden Smith', '2018-11-21', '2019-05-30 23:54:04'),
+(28, '2 Chainz - Bigger Than You ft. Drake, Quavo - Copy.mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/2 Chainz - Bigger Than You ft. Drake, Quavo - Copy.mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/chainz.PNG', 'Action', '2 chainz', '2018-12-05', '2019-05-30 19:35:39'),
+(29, 'Migos ft. Wiz khalifa - Gassing (Music Video)(NEW 2019).mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/Migos ft. Wiz khalifa - Gassing (Music Video)(NEW 2019).mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/wiz k.PNG', 'Drama', 'Wiz khalifa', '2019-03-08', '2019-05-31 03:15:19'),
+(30, 'Chris Brown - Look At Me Now (Official Music Video) ft. Lil Wayne, Busta Rhymes.mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/Chris Brown - Look At Me Now (Official Music Video) ft. Lil Wayne, Busta Rhymes.mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/sdffs.PNG', 'Horror', 'Paul tergat', '2019-10-10', '2019-05-30 23:51:12'),
+(31, 'DaniLeigh - Lil Bebe.mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/DaniLeigh - Lil Bebe.mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/bebe.PNG', 'Romance', 'Danileigh', '2019-02-05', '2019-05-30 17:55:29'),
+(32, 'Khalid - OTW (Official Video) ft. 6LACK, Ty Dolla $ign.mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/Khalid - OTW (Official Video) ft. 6LACK, Ty Dolla $ign.mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/khalid.PNG', 'Documentary', 'Khalid', '2018-12-12', '2019-05-31 03:14:43'),
+(33, 'benny blanco, Tainy, Selena Gomez, J Balvin - I Cant Get Enough (Official Music Video).mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/benny blanco, Tainy, Selena Gomez, J Balvin - I Cant Get Enough (Official Music Video).mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/selena.PNG', 'Comedy', 'Selena Gomez', '2019-04-02', '2019-05-31 03:11:38'),
+(34, 'French Montana - No Stylist ft. Drake (Official Mu.mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/French Montana - No Stylist ft. Drake (Official Mu.mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/no stylist.PNG', 'Documentary', 'French Monatana Drake', '2019-01-09', '2019-05-31 03:15:12'),
+(35, '2 Chainz - PROUD ft. YG, Offset.mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/2 Chainz - PROUD ft. YG, Offset.mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/2 chainz proud.PNG', 'Documentary', '2 chainz ,yg', '2019-04-02', '2019-05-30 20:15:01'),
+(36, 'Migos - Out Yo Way x Culture (Music Video).mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/Migos - Out Yo Way x Culture (Music Video).mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/migos.PNG', 'Action', 'migos', '2019-04-18', '2019-05-30 23:52:17'),
+(39, 'Rich The Kid - Lost It ft. Quavo, Offset.mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/Rich The Kid - Lost It ft. Quavo, Offset.mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/rich the kid.PNG', 'Comedy', 'Rich the kid ,migos', '2018-03-05', '2019-04-28 19:15:31'),
+(40, 'Migos - Drop Top (Music Video) (NEW 2019).mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/Migos - Drop Top (Music Video) (NEW 2019).mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/new migos.PNG', 'History', 'Migos', '2019-04-17', '2019-05-31 03:43:49'),
+(42, 'WALK IT TALK IT - Migos ft. Drake @THEFUTUREKINGZ.mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/WALK IT TALK IT - Migos ft. Drake @THEFUTUREKINGZ.mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/future kings.PNG', 'Drama', 'The future kingz', '2018-02-20', '2019-05-31 03:20:52'),
+(43, '2 Chainz ft. Travis Scott - 4 AM #ThaKrew X #Ayoan.mp4', 'http://127.0.0.1/project/frontend/uploaded_videos/2 Chainz ft. Travis Scott - 4 AM ThaKrew X Ayoan.mp4', 'http://127.0.0.1/project/frontend/uploaded_thumbnails/4am.PNG', 'Action', 'ayo,teo', '2019-06-12', '2019-06-25 17:34:59');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `rating_info`
+--
+
+CREATE TABLE `rating_info` (
+  `movie_ID` int(11) NOT NULL,
+  `customerID` int(11) NOT NULL,
+  `rating_action` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `rating_info`
+--
+
+INSERT INTO `rating_info` (`movie_ID`, `customerID`, `rating_action`) VALUES
+(19, 111, 'like'),
+(22, 1, 'like'),
+(22, 111, 'dislike'),
+(22, 113, 'dislike'),
+(26, 1, 'like'),
+(26, 113, 'like'),
+(28, 1, 'dislike'),
+(28, 113, 'like'),
+(30, 1, 'dislike'),
+(30, 113, 'dislike'),
+(31, 1, 'dislike'),
+(33, 1, 'dislike'),
+(33, 113, 'dislike'),
+(34, 113, 'dislike'),
+(35, 113, 'dislike'),
+(35, 115, 'like'),
+(36, 1, 'dislike'),
+(36, 113, 'dislike'),
+(39, 113, 'like'),
+(40, 1, 'like'),
+(42, 113, 'like'),
+(43, 113, 'like'),
+(43, 115, 'like');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `views`
+--
+
+CREATE TABLE `views` (
+  `movie_ID` int(11) NOT NULL,
+  `customerID` int(11) NOT NULL,
+  `views` int(11) NOT NULL DEFAULT '1'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `views`
+--
+
+INSERT INTO `views` (`movie_ID`, `customerID`, `views`) VALUES
+(19, 1, 3),
+(19, 89, 1),
+(19, 111, 5),
+(19, 113, 2),
+(19, 115, 3),
+(21, 1, 15),
+(21, 113, 1),
+(22, 1, 61),
+(22, 89, 1),
+(22, 113, 16),
+(22, 115, 11),
+(26, 1, 17),
+(26, 113, 6),
+(26, 115, 2),
+(28, 1, 12),
+(28, 89, 1),
+(28, 113, 6),
+(28, 115, 8),
+(29, 1, 12),
+(30, 1, 30),
+(30, 89, 1),
+(30, 111, 12),
+(30, 113, 12),
+(31, 1, 20),
+(31, 89, 2),
+(31, 113, 3),
+(32, 89, 1),
+(32, 113, 3),
+(32, 115, 1),
+(33, 1, 41),
+(33, 111, 7),
+(33, 113, 5),
+(34, 111, 3),
+(34, 113, 3),
